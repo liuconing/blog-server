@@ -8,7 +8,7 @@ const app = express()
 // 使用cors中間件，這將允許所有跨源請求
 app.use(cors())
 // 定義一個端口號
-const port = 3000
+const port = 8080
 const interfaces = os.networkInterfaces()
 let serverIP = ''
 for (let iface in interfaces) {
